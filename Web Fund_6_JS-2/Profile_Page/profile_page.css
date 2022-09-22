@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    background-color: white;
+    width: 1900px;    
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 28' width='56' height='28'%3E%3Cpath fill='%23577c74' fill-opacity='0.4' d='M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+a{
+    text-decoration: none ;
+    color: darkblue;
+}
+
+a:hover{
+    font-size: 1.05em;
+    color: blueviolet;
+}
+
+h2>a{
+    text-decoration: none;
+    color: black;
+}
+h2>a:hover{
+    font-size: 1.02em;
+    cursor: pointer;
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.navBarTop{
+    background-color: rgba(0, 0, 0, 0.626);
+    padding: 20px 0px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+#navCenterBox{
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+}
+
+#navBoxLeft{
+    width: 10%;
+    font-size: 1.3em;
+}
+
+#navBoxRight{
+    width: 20%;
+    text-align: end;
+}
+
+#bigProfile{
+    color: white;
+    font-size: 200%;
+}
+
+#bigProfile:hover{
+    color:darkolivegreen;
+    font-size: 220%;
+    cursor: pointer;
+}
+
+#nav-links{
+    width: 50%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10%;
+}
+
+.clickNav{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+}
+
+.clickNav:hover{
+    text-decoration: none;
+    color: darkolivegreen;
+    font-size: 110%;
+}
+
+.btn{
+    background-color:  rgb(47, 131, 144);
+    color: white;
+    border: 3px black solid;
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+    padding: 3px 20px;
+}
+
+.btn:hover{
+    background-color:  rgb(102, 192, 206);
+    color: white;
+    border: 3px black solid;
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+    margin: 12px;
+    font-size: 22px;
+    padding: 3px 20px;
+}
+
+
+#main{
+    width: 65%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#container{
+    border: 5px solid gray;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.661);
+}
+
+#colLeft{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#profilePic{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    border-radius: 50%;
+}
+
+#profileNav{
+    width: inherit;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.661);
+}
+
+#profileNameMain{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.connectBoxMain>.connectBoxList>.profileName:hover{
+    background-color: aliceblue;
+    width: 300px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
+#map-marker{
+    width: 13px;
+    padding-left: 40px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#map-marker:hover{
+    width: 15px;
+    padding-left: 40px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#stay{
+    display: inline-block;
+}
+
+#description{
+    padding: 20px 40px;
+}
+
+#gear{
+    width: 18px;
+    padding-left: 40px;
+    margin-right: 5px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+#gear:hover{
+    width: 20px;
+    padding-left: 40px;
+    margin-right: 5px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+#foot{
+    vertical-align: top;
+}
+
+#educationBox{
+    background-color: rgba(255, 255, 255, 0.649);
+    width: 100%;
+    height: 350.5px;
+    margin-top: 30px;
+    border: 5px solid gray;
+}
+
+#eduBoxNav{
+    width: auto;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+
+#eduContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+#colRight{
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+}
+
+#connectionRequestBox{
+    background-color: rgba(255, 255, 255, 0.666);
+    width: 100%;
+    height: 250px;
+    border: 5px solid gray;
+}
+
+#requestBoxNav{
+    background-color: rgba(0, 0, 0, 0.658);
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#upTinyIcon{
+    width: 30px;
+    height: 30px;
+    background-color: darkgrey;
+    border: none;
+    border-radius: 50%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tinyBoxHeader{
+    color: white;
+    font-size: 1.5em;
+}
+
+#label2{
+    font-size: 1.2em;
+    color: black;
+    /* padding-left: 9px;
+    padding-top: 2px;    */
+}
+
+.connectBoxMain{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.connectBoxList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+.connectBoxBellow>.connectBoxList:hover{
+    background-color: rgba(240, 248, 255, 0.621);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 15px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+
+#connectionBox{
+    background-color: rgba(255, 255, 255, 0.653);
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    border: 5px solid gray;
+}
+
+#connectBoxNav{
+    background-color: rgba(0, 0, 0, 0.649);
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#downTinyIcon{
+    width: 80px;
+    height: 30px;
+    background-color: darkgrey;
+    border: none;
+    border-radius: 49%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#label500{
+    font-size: 1.2em;
+    color: black;
+    /* padding-left: 16px;
+    padding-top: 2px; */
+}
+
+.smallIconSize{
+    width:40px;
+    height: 40px;
+}
+
+.smallIconSize:hover{
+    width:45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.iconPosition{
+    align-self: end;
+}
+
+.smallPicSize{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.profileName{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.connectBoxBellow{
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#viewMore{
+    height: 8%;
+    border-top: 5px grey solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 30px;
+}

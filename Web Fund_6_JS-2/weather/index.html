@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="mainNav">
+        <nav>
+            <h1>DojoWeather</h1>
+            <h2 class="city" onclick="alert('Loading weather report...')">Burbank</h2>
+            <h2 class="city" onclick="alert('Loading weather report...')">Chicago</h2>
+            <h2 class="city" onclick="alert('Loading weather report...')">Dollas</h2>
+        </nav>
+    </nav>
+    <div id="topRow">
+        <h2>San Jose</h2>
+        <div>
+            <h3>show temperature in </h3>
+            <select onchange="changeTemp(this)">
+                <option value="C">°C</option>
+                <option value="F">°F</option>
+            </select>
+        </div>
+    </div>
+    <div id="mainContent">
+        <div class="weatherContent">
+            <h1>Today</h1>
+            <img class="weatherIcon" src="image/some_rain.png" alt="rain">
+            <h3>some rain</h3>
+            <div class="colTemperature">
+                <h2 id="highTemp"><span class="temperature">24</span>°</h2>
+                <h2 id="lowTemp"><span class="temperature">18</span>°</h2>
+            </div>
+        </div>
+        <div class="weatherContent">
+            <h1>Tomorrow</h1>
+            <img class="weatherIcon" src="image/some_sun.png" alt="sun">
+            <h3>some sun</h3>
+            <div class="colTemperature">
+                <h2 id="highTemp"><span class="temperature">27</span>°</h2>
+                <h2 id="lowTemp"><span class="temperature">19</span>°</h2>
+            </div>
+        </div>
+        <div class="weatherContent">
+            <h1>Friday</h1>
+            <img class="weatherIcon" src="image/some_clouds.png" alt="clouds">
+            <h3>some clouds</h3>
+            <div class="colTemperature">
+                <h2 id="highTemp"><span class="temperature">21</span>°</h2>
+                <h2 id="lowTemp"><span class="temperature">16</span>°</h2>
+            </div>
+        </div>
+        <div class="weatherContent">
+            <h1>Saturday</h1>
+            <img class="weatherIcon" src="image/some_sun.png" alt="sun">
+            <h3>some sun</h3>
+            <div class="colTemperature">
+                <h2 id="highTemp"><span class="temperature">26</span>°</h2>
+                <h2 id="lowTemp"><span class="temperature">11</span>°</h2>
+            </div>
+        </div>
+    </div>
+    <div id="cookieBox">
+        <img src="image/cookie.png" alt="cookie">
+        <div id="cookieMid">
+            <h2>Stop! Cookie time</h2>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+        </div>
+        <button id="accept" onclick="hide(cookieBox)">I Accept</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

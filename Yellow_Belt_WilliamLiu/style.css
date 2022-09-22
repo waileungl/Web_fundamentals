@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+#navContainer{
+    background-color: rgb(17, 155, 157) ;
+    height: 28vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navCenterTop{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#homeLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%; 
+    cursor: pointer; 
+}
+
+#homeLogo>h1{
+    font-size: 3vw;
+    color: white;
+}
+
+#homeLogo>img{
+    width: 3vw;
+}
+
+#navCenterTop>ul{
+    display: flex;
+    width: 55%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5vw;
+    list-style-type: none;
+}
+
+#navCenterTop>ul>li{
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.5vw;
+}
+
+#navCenterTop>ul>li:hover{
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.5vw;
+    border-radius: 40px;
+    padding: 0.8vw;
+    background-color: rgba(127, 255, 212, 0.325);
+}
+
+#donateButton{
+    background-color: white;
+    font-size: 1.48vw;
+    border: 3px solid rgb(153, 0, 255);
+    border-radius: 120px;
+    color: rgb(153, 0, 255);
+    padding: 1.1%;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#donateButton:hover{
+    background-color: rgb(153, 0, 255);
+    font-size: 1.48vw;
+    border: 3px solid rgb(153, 0, 255);
+    border-radius: 120px;
+    color: white;
+    padding: 0.8vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#navCenterTitle{
+    font-size: 1.1vw;
+    color: white;
+}
+
+#navCenterBottom{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navCenterBottom>div{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#navCenterBottom>button{
+    margin-top: 2%;
+    width: 21vw;
+    font-size: 1.25vw;
+    color: white;
+    background-color: rgb(153, 0, 255);
+    box-shadow: 3px 5px black;
+    border: black 3px solid;
+    cursor: pointer;
+    padding: 0.5vh;
+}
+
+#navCenterBottom>button:hover{
+    width: 21vw;
+    font-size: 1.25vw;
+    color: rgb(153, 0, 255);
+    border: black 3px solid;
+    background-color: white;
+    cursor: pointer;
+    padding: 0.5vh;
+}
+
+.navSmallIcon{
+    width: 25px;
+}
+
+#petSelectBox{
+    width: 80%;
+    height: 60%;
+    padding: 0 2%;
+    border: 3px black solid;
+    font-size: 0.9vw;
+}
+
+#petSelector{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    height: 50%;
+}
+
+#locationSelector{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    height: 50%;
+}
+
+#locationSelector>input{
+    height: 50%;
+    padding: 0 6%;
+    border: 3px black solid;
+    font-size: 1vw;
+}
+
+
+.petList{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 20vh;
+    margin: 1.9% auto;
+    border-radius: 30px;
+}
+
+.petPic{
+    width: 12%;
+    margin: 5%;
+    border-radius: 5px;
+}
+
+.descriptionBox{
+    width: 55%;
+}
+
+.descriptionBox>h2{
+    font-size: 2.3vw;
+    margin-bottom: 3%;
+}
+
+.descriptionBox>p{
+    font-size: 1.2vw;
+}
+
+.pettingBox{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.pettingBox>button{
+    border: 3px black solid;
+    box-shadow: 3px 3px black;
+    width: 80%;
+    color: white;
+    background-color: rgb(23, 207, 209);
+    margin-top: 10%;
+    margin-right: 8%;
+    padding: 0.5vh 0;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.pettingBox>button:hover{
+    border: 3px black solid;
+    box-shadow: 3px 3px black;
+    width: 80%;
+    color: rgb(23, 207, 209);
+    background-color: white;
+    margin-top: 10%;
+    margin-right: 8%;
+    padding: 0.5vh 0;
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+
+.pettingBox>h3{
+    font-size: 1.3vw;
+    margin-right: 8%;
+}
+
+.pettingBox button{
+    cursor: pointer;
+}

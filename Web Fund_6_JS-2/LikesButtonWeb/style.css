@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Prompt&family=Source+Sans+Pro:wght@600&display=swap');
+
+nav{
+    margin: 0 auto;
+    width: 60%;
+    color: white;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+nav>h1{
+    margin-left: 30px;
+}
+
+header{
+    text-align: center;
+    font-size: 1.9em;
+    margin: 30px 0;
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#leftCol{
+    display: flex;
+    flex-direction: column;
+    border: 4px black solid;
+    justify-content: space-evenly;
+    height: 350px;
+    align-items: center;
+}
+
+#leftCol>img{
+    width: 40%;
+}
+
+.box{
+    border: 4px black solid;
+    width: 600px;
+    height: 150px;
+    padding: 20px;
+}
+
+#rightCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+}
+
+#upperBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#upperBox>button {
+    border: 3px black solid;
+    background-color: rgb(191, 238, 97);
+    font-size: 1.2em;
+    padding: 5px 30px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 3px 3px black;
+}
+
+.box>p{
+    font-size: 1.2em;
+}

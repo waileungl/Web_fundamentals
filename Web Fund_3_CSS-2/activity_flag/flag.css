@@ -1,0 +1,85 @@
+.container{
+    margin: 20px auto;
+    width: 3000px;
+    height: 1800px;
+    background-color: red;
+}
+
+#topHalf{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    height: 56%;
+}
+
+#col1 {
+    color: yellow;
+    font-size: 600px;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+#col2 {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding: 80px;
+    padding-right: 0px;
+}
+
+.smallFiveCol2{
+    color: yellow;
+    font-size: 200px;
+    transform: rotate(30deg);
+}
+
+.col3{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: -100px;
+    background-color: red;
+}
+
+.smallFive{
+    color: yellow;
+    font-size: 200px;
+    height: 200px;
+}
+
+#smallStarUp{
+    transform: rotate(45deg);
+    padding-bottom: 80px;
+    padding-left: 20px;
+    margin: -40px;
+}
+
+#smallStarBellow {
+    transform: rotate(-5deg);
+    padding-bottom: 40px;
+    padding-left: 40px;
+    margin: -50px;
+}
+
+#red {
+    width: 85%;
+}
+
+#bottomHalf{
+    background-color: red;
+    height: 44%;
+}
+
+
+
+
+
+
+
+
+

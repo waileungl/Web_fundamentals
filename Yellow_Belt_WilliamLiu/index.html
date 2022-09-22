@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navContainer">
+        <nav id="navCenterTop">
+            <div id="homeLogo">
+                <img src="heart-light.png" alt="heart">
+                <h1>Pet Shelter</h1>
+            </div>
+            <ul>
+                <li>Find a Pet</li>
+                <li>About</li>
+                <button id="donateButton" onclick="hide(this)">Donate</button>
+            </ul>
+        </nav>
+
+        <nav id="navCenterBottom">
+            <div>
+                <h2 id="navCenterTitle">I'm looking for a...</h2>
+                <div id="petSelector">
+                    <img class="navSmallIcon" src="paw-light.png" alt="paw">
+                    <select name="petSelector" id="petSelectBox" onchange="petTypeNotify(this)">
+                        <option value="placeholder" disabled selected hidden>Any Pet</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <h2 id="navCenterTitle">in or near...</h2>
+                <div id="locationSelector">
+                    <img class="navSmallIcon" src="pin-light.png" alt="pin">
+                    <input type="text" placeholder="City or Zip Code">
+                </div>
+            </div>
+            <button>Find your new best friend</button>
+        </nav>
+    </nav>
+
+    <div class="petList">
+        <img class="petPic" src="pepper.jpg" alt="pepper">
+        <div class="descriptionBox">
+            <h2>Pepper</h2>
+            <p>Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</p>
+        </div>
+        <div class="pettingBox">
+            <h3><span id="pettingPepper">3</span> petting(s)</h3>
+            <button onclick="increaseLike(pettingPepper)">Pet Pepper</button>
+        </div>
+    </div>
+
+    <div class="petList">
+        <img class="petPic" src="bruce.jpg" alt="bruce">
+        <div class="descriptionBox">
+            <h2>Bruce</h2>
+            <p>Bruce is a loyal companion. He loves long walks and cold weather</p>
+        </div>
+        <div class="pettingBox">
+            <h3><span id="pettingBruce">5</span> petting(s)</h3>
+            <button onclick="increaseLike(pettingBruce)">Pet Pepper</button>
+        </div>
+    </div>
+
+    <div class="petList">
+        <img class="petPic" src="oscar.jpg" alt="oscar">
+        <div class="descriptionBox">
+            <h2>Oscar</h2>
+            <p>Oscar is bright, energetic and friendly. he is looking for a good home.</p>
+        </div>
+        <div class="pettingBox">
+            <h3><span id="pettingOscar">8</span> petting(s)</h3>
+            <button onclick="increaseLike(pettingOscar)">Pet Pepper</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
