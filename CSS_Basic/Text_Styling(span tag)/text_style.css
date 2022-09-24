@@ -1,0 +1,27 @@
+h1{
+   color: aqua ; 
+   background-color: black;
+   text-align: left;
+   font-weight: 600;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.white{
+    color: white;
+}
+
+h2{
+    background-color: darkslateblue;
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+h3{
+    background-color: cornflowerblue;
+    text-decoration: underline;
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
