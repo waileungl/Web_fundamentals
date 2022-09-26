@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap');
+
+#calculator {
+    background-color: rgba(17, 17, 17, 0.889);
+    width: fit-content;
+    margin: 15vh auto;
+    padding: 2vw;
+}
+
+#display {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.1em;
+    margin-top: 2vh;
+}
+
+.row{
+    display: flex;
+    margin: 1.4vh 0;
+}
+
+.row>button {
+    background-color: grey;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    border-radius: 50%;
+}
+
+.row>button:hover {
+    background-color: white;
+    color: grey;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    border-radius: 50%;
+}
+
+.row .operator{
+    background-color: rgb(255, 125, 78);
+}
+
+.row .operator:hover{
+    background-color: white;
+    color: rgb(255, 125, 78);
+}
+
+#delete{
+    background-color: aliceblue;
+    color: black;
+}
+
+#delete:hover{
+    color: aliceblue;
+    background-color: black;
+}
+
+#equals{
+    border-radius: 80px;
+    width: 75%;
+}
